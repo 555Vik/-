@@ -43,3 +43,4 @@ ul#grid li a {
 ul#grid li a:hover {
   background-color: none;
 }
+p { align: left; }
