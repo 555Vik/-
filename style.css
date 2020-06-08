@@ -99,3 +99,19 @@ section#copyright {
   padding: 1.5em 0;
   margin-bottom: 0;
 }
+
+#creators img {
+  max-height: 10em;
+  display: block;
+}
+
+@media screen and (min-width: 800px) {
+  #creators {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+
+  #creators h3 {
+    grid-column: 1 / -1;
+  }
+}
