@@ -44,9 +44,12 @@ article section, footer section, header {
 figure {
   margin: 2em 0; /* 1 — top, bottom, 2—right, left */
 }
+img { 
+  width:100%;
+  }
 
 section.text img {
-  width: 100%;
+max-width: 100%;
 }
 
 figcaption {
